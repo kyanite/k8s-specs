@@ -8,6 +8,8 @@
 /cd/docker-build/.vagrant
 /cd/docker-build/*.log
 /helm/jenkins/*.lock
+/helm/jenkins2/*.lock
+/kubeconfig
 # terraform
 /terraform/terraform.tf*
 /terraform/*.pem
@@ -22,3 +24,4 @@ terraform.tfstate
 /zones
 /myvalues.yaml
 /charts/istio*
+/account.json
