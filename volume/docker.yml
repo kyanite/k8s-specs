@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: docker
-    image: docker:17.11
+    image: docker:19.03
     command: ["sleep"]
     args: ["100000"]
     volumeMounts:
